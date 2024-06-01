@@ -54,8 +54,6 @@ export function getNativeLogoURI(chainId: SupportedChainId = SupportedChainId.MA
       return CeloLogo
     case SupportedChainId.BNB:
       return BnbLogo
-    case SupportedChainId.BASE:
-      return BaseLogo
     default:
       return EthereumLogo
   }
