@@ -119,7 +119,6 @@ export function TokenSelectDialogContent({ value, onSelect, onClose }: TokenSele
               </ThemedText.Body1>
             </SearchInputContainer>
           </Row>
-          <CommonBases chainId={chainId} onSelect={onSelect} selected={value} />
         </Column>
         <Rule padded />
       </Column>
